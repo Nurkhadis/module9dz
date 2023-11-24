@@ -21,7 +21,6 @@ namespace Module9HW
 
             decimal additionalSalary = LinesOfCodePerDay * 0.03m;
 
-            // Общая годовая зарплата с учетом оплаты за строки кода
             return baseAnnualSalary + additionalSalary;
         }
     }
