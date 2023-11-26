@@ -36,7 +36,7 @@ namespace Module9HW
     {
         static void Main(string[] args)
         {
-            Manager manager = new Manager("Aiba", 20, 650000, 200000);
+            Manager manager = new Manager("Nurkhadis", 20, 1000000, 500000);
             manager.GetInfo();
             decimal annualSalaryWithBonus = CalculateAnnualSalary();
             Console.WriteLine($"Annual Salary(With Bonus): {annualSalaryWithBonus}");
